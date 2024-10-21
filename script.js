@@ -14,6 +14,9 @@ const divide = function (firstNumber,secondNumber) {
     return firstNumber/secondNumber
 }
 
+const remainder = function(firstNumber,secondNumber) {
+    return firstNumber % secondNumber
+}
 let firstNumber = 0
 let operator = [add, subtract, multiply, divide]
 let secondNumber = 0
